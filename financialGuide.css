@@ -1,0 +1,286 @@
+/* homepage css */
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+}
+
+#writehere {
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100px;
+  /* font-weight: bolder; */
+  color : #F2E9E4; 
+  text-align: center;
+}
+/* styling for slogan */
+#slogan {
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  margin-top: -10px;
+  color : #F2E9E4; 
+  font-size: 25px;
+}
+
+/* styling for title */
+.title {
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 150px;
+  font-weight: bolder;
+  color : #F2E9E4; 
+  text-align: center;
+  padding-top: 20%;
+}
+
+/* styling for slogan */
+.slogan {
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  padding-top: 5%;
+  color : #F2E9E4; 
+  font-size: 100 px;
+}
+/* styling for covid case count visual */
+.covidCases {
+  padding-top: 10%;
+  /* text-align: center; */
+  width: 40%;
+  margin-left: 2%;
+}
+
+.covidMap2 {
+  padding-top: 10%;
+  /* text-align: center; */
+  width: 40%;
+  margin-left: 60%;
+
+}
+
+/* styling for the nav bar */
+   .topnav {
+    overflow: hidden;
+    background-color: #22223B;
+  } 
+  .topnav a {
+    float: left;
+    display: block;
+    padding: 0.5% 50%;
+    text-decoration: none;
+    font-size: 17px;
+    position: sticky;
+    top: 0;
+  } 
+
+/* styling for the logo on nav bar */
+/* .logo {
+  width: 40%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: sticky;
+    top: 0;
+} */
+
+/* STDont button */
+.STD {
+  width: 2.5%;
+  height: auto;
+  float: left;
+  padding-top: 2%;
+}
+
+.cMap {
+  width: 2.5%;
+  height: auto;
+  float: left;
+  padding-top: 13%;
+  margin-left: -2.5%;
+}
+
+.cTests {
+  width: 2.5%;
+  height: auto;
+  float: right;
+  padding-top: 2%;
+  padding-bottom: 0%;
+}
+
+.financialButton {
+  width: 2.5%;
+  height: auto;
+  float: right;
+  padding-top: 20%;
+  margin-right: -2.5%;
+}
+
+/* .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.slideshowPic {
+  height: 10%;
+  object-fit: cover;
+  margin-top: 15%;
+} */
+
+main-message,
+.image-one {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 85%;
+  background-attachment:fixed;
+}
+ 
+.main-message {
+  /*first pic on home screen*/
+  background-image: url("https://cdn.glitch.com/ff152241-00f4-4a15-b3ef-0be7bcfa069f%2Fgradientbackg.png?v=1603570541819");
+}
+.image-one {
+  /*second pic on home screen*/
+  background-image: url("https://cdn.glitch.com/ff152241-00f4-4a15-b3ef-0be7bcfa069f%2Fgradientbkgrd2.png?v=1603570670786");
+}
+
+body, html {
+  height:75%;
+  font-size:20px; 
+  line-height:1.5em; 
+  margin: 0em;
+  background-image: url("https://cdn.glitch.com/ff152241-00f4-4a15-b3ef-0be7bcfa069f%2Fbluegradient.png?v=1603571478134");
+  box-sizing: border-box;
+}
+
+
+/* aNAS CODE */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
+}
+.card{
+    background-color: #1c1b29;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+}
+.container{
+    position: relative;
+    clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+}
+img{
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+.container:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.7;
+}
+.card1>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #9A8C98,
+        rgb(247, 162, 234)
+    );
+}
+.card2>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #9A8C98,
+        rgb(247, 162, 234)
+    );
+}
+.card3>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #9A8C98,
+        rgb(247, 162, 234)
+    );
+}
+.details{
+    padding: 20px 10px;
+}
+.details>h3{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 0 15px 0;
+}
+.details>p{
+    color: #a0a0a0;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.logo {
+  color: #F2E9E4;
+}
+.contentBox{
+  margin: 5% 5% 5% 5%;
+}
+h2 {
+  color: #22223B;
+  align-items: center;
+}
+.contentText {
+  color:#ffffff;
+  text-indent: 2.75%;
+}
+.contextLink {
+  color: #ffffff;
+}
+
+nav {
+  list-style-type: none;
+  padding: 2px;
+  background-color: #f2e9e4;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+li {
+  display: inline;
+  border-right: 2px solid #f2e9e4;
+  font-size:20px;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  color:  #182f52;
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1em;
+} 
+
+li a:hover {
+  background-color: #c9ada7;
+  border-radius:5px;
+}

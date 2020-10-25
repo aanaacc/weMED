@@ -1,0 +1,1 @@
+writeAnimation(slogan, "All about test types and testing facilities.")

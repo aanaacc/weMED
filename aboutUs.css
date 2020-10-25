@@ -1,0 +1,158 @@
+#writehere {
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 80px;
+  /* font-weight: bolder; */
+  color : #F2E9E4; 
+  text-align: center;
+}
+
+.aboutus {
+  font-size: 35px;
+  font-family: 'Josefin Slab', serif;
+  text-align:center;
+}
+
+.twenty {
+  font-size:20px;
+  font-family: 'Josefin Slab', serif;
+  text-align:center;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 10%;
+  padding: 5px;
+}
+
+.mackenzie {
+  width: 200px;
+  height: 190px;
+  border:10px;
+  object-fit: cover;
+  padding: 10px;
+  justify-content: center;
+  border-radius:150px;
+  margin-left:40px;
+}
+
+.ana {
+  width: 200px;
+  height: 190px;
+  border:10px;
+  object-fit: cover;
+  padding: 10px;
+  justify-content: center;
+  border-radius:150px;
+}
+
+.ginger {
+  width: 200px;
+  height: 190px;
+  border:10px;
+  object-fit: cover;
+  padding: 10px;
+  justify-content: center;
+  border-radius:150px;
+}
+
+.autumn {
+  width: 200px;
+  height: 190px;
+  border:10px;
+  object-fit: cover;
+  padding: 10px;
+  justify-content: center;
+  border-radius:150px;
+}
+
+.item{
+  width:400px;
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-bottom:1px;
+  float:left;
+  color: #222238;
+}
+
+.mackenziebio {
+ font-family: 'Comfortaa', cursive;
+ margin-left:70px;
+}
+
+.anabio {
+ font-family: 'Comfortaa', cursive;
+}
+
+.gingerbio {
+ font-family: 'Comfortaa', cursive;
+}
+
+.autumnbio {
+ font-family: 'Comfortaa', cursive;
+}
+
+main-message,
+.image-one {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 85%;
+  background-attachment:fixed;
+}
+ 
+.main-message {
+  /*first pic on home screen*/
+  background-image: url("https://cdn.glitch.com/ff152241-00f4-4a15-b3ef-0be7bcfa069f%2Fgradientbackg.png?v=1603570541819");
+}
+.image-one {
+  /*second pic on home screen*/
+  background-image: url("https://cdn.glitch.com/ff152241-00f4-4a15-b3ef-0be7bcfa069f%2Fgradientbkgrd2.png?v=1603570670786");
+}
+
+body, html {
+  height:75%;
+  font-size:20px; 
+  line-height:1.5em; 
+  margin: 0em;
+  background-image: url("https://cdn.glitch.com/ff152241-00f4-4a15-b3ef-0be7bcfa069f%2Fbluegradient.png?v=1603571478134");
+  box-sizing: border-box;
+}
+nav {
+  list-style-type: none;
+  padding: 2px;
+  background-color: #f2e9e4;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+li {
+  display: inline;
+  border-right: 2px solid #f2e9e4;
+  font-size:20px;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  color:  #182f52;
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1em;
+} 
+
+li a:hover {
+  background-color: #c9ada7;
+  border-radius:5px;
+}
+

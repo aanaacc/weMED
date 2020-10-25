@@ -1,0 +1,1 @@
+writeAnimation(slogan, "You are in Palo Alto, CA.")

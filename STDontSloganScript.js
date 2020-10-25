@@ -1,0 +1,1 @@
+writeAnimation(slogan, "A Beginner's Guide to All Things Sexual Health.")

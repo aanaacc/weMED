@@ -1,0 +1,1 @@
+writeAnimation(slogan, "Smart ways to afford the unaffordable.")

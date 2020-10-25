@@ -1,0 +1,1 @@
+writeAnimation(slogan, "Where Community Meets Healthcare.")
